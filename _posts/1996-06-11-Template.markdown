@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "___________"
+quickId: "slug"
+date:   1996-06-11 16:35:02 -0400
+categories: 
+    
+shot-img: 800x600
+image: (if featured)
+
+gallery:
+    - img here
+
+
+link:
+    - url: 
+      title: 
+
+tag: 
+    - Web Dev
+    - Web Design
+    
+goal:
+    Summary
+    
+
+intro_name: SCOPE
+intro_content: First paragraph
+
+---
+
+<!-- DUPLICATE AS NEEDED -->
+<div class="post-sec">
+    <div class="post-sec_item post-title">
+        <h1>
+        <!-- SECTION TITLE -->
+        
+        </h1>  
+    </div>
+    <div class="post-sec_item">
+        <!-- SECTION CONTENT -->
+        
+        
+        
+    </div>
+</div>
+
+
+

@@ -1,0 +1,248 @@
+/* # Post Colors Found at Bottom # */
+
+.entry_wrap {
+    
+    display:flex;
+    flex-direction: column;
+}
+
+.entry-content_wrap {
+    display: flex;
+    
+}
+
+.entry-content_img {
+    display:none;
+}
+
+.entry-content_desc {
+        
+        p {
+            max-height:30vh;
+            overflow:hidden;
+        }
+}
+
+.entry-content_head {
+    h1 {
+        width:110%;
+        font-size: 3em;
+        font-family: $f_heading;
+        color:$txt_color;
+    }
+    p {
+        padding:0 0 20px 0;
+        font-size: 1.2em;
+        line-height: 1.4em;
+        font-family: $f_body;
+        color:$txt_color;
+        max-height:30vh;
+        overflow: hidden;
+    }
+    a {
+        color: $txt_color;
+    }
+}
+
+.entry-launch {
+    max-height: 50px;
+    max-width: 33%;
+    line-height: 50px;
+    background-color: #fff;
+    padding:0px 30px;
+    margin:20px 0 0 0;
+    border-radius: 35px;
+    h2 {
+        text-align: center;
+        font-family: $f_ui;
+        font-size: 1.5em;
+        color: $ui_dark;
+    }
+}
+
+.entry-content_mobile {
+    display:none;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .entry-content_wrap {
+        height:100vh;
+    }
+    
+    .entry-content_img {
+        display: block;
+        width:100%;
+    }
+
+    .entry-content_img_child {
+        width:100%;
+        height: 80vh;
+        margin:10vh 0;
+
+        overflow: hidden;
+        img {
+            float:right;
+            margin:5% 0;
+            height:80%;
+        }
+    }
+
+    .entry-content_desc {
+        width:33.33%;
+        height:100vh;
+        min-width: 400px;
+        position: absolute;
+        right:0;
+        font-family: $f_body;
+        background-color: #2F397F;
+    }
+
+    .entry-content_head {
+        width:80%;
+        position: absolute;
+        bottom: -5vh;
+        left: 15%;
+        h1 {
+            width:110%;
+            font-size: 3em;
+            font-family: $f_heading;
+            color:$txt_color;
+        }
+        p {
+            padding:0 0 20px 0;
+            font-size: 1.2em;
+            line-height: 1.4em;
+            font-family: $f_body;
+            color:$txt_color;
+            max-height:30vh;
+            overflow: hidden;
+        }
+        a {
+            color: $txt_color;
+        }
+        opacity: 0;
+        -webkit-transform: translateX(-90px) translateY(-70%);
+        transform: translateX(-90px) translateY(-70%);
+        -webkit-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    }
+
+    .entry-content_head.fade-in {
+        opacity: 1;
+        -webkit-transform: translateX(-30px) translateY(-70%);
+        transform: translateX(-30px) translateY(-70%);
+    }
+
+    .wingDing {
+        height:3px;
+        width:40%;
+        margin:20px 0;
+        background-color:$text-color;
+    }
+
+    .entry-launch {
+        max-height: 50px;
+        max-width: 33%;
+        line-height: 50px;
+        background-color: #fff;
+        padding:0px 30px;
+        border-radius: 35px;
+        h2 {
+            text-align: center;
+            font-family: $f_ui;
+            font-size: 1.5em;
+            color: $ui_dark;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        width:100%;
+    }
+    
+    .entry-content_wrap {
+        flex-direction: column;
+    }
+    
+    .entry-content {
+        width:60vw;
+        margin:0vh 0;
+    }
+    
+    .entry-content_img {
+        width:100%;
+    }
+    
+    .entry-content_img_child {
+        height:50vh;
+    }
+    
+    .entry-content_desc {
+        position: relative;
+        width:100%;
+    }
+    
+    .entry-content_head {
+        position: relative;
+        padding:50px 0;
+        width:80%;
+        margin:0 auto;
+    }
+    
+    .entry-content_mobile {
+        width:100%;
+        height:400px;
+    }
+}
+
+
+
+
+
+
+
+
+/* ### BACKGROUND COLORS ### */
+/*    1. Choose a color for the background
+/*    2. Lighten it by 15%
+/*        --    http://www.hexcolortool.com/
+/*    3. Get the RGBA value
+/*    4. Use this value as the foreground
+/*    5. Apply a 0.7 transparency
+
+
+/*Light The Way*/
+#postBG_light {background-color: #BF9F68;}
+#postFG_light {background-color: rgba(229, 197, 142,0.7);}
+/*Bitter*/
+#postBG_bitterTypeface {background-color: #181D40;}
+#postFG_bitterTypeface {background-color: rgba(62, 67, 102, 0.7);}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    
+    <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            <!--{{ page.date | date: "%b %-d, %Y" }}-->
+        </time>{% if page.author %} • 
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">
+                {{ page.author }}
+            </span>
+        </span>
+        {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <div class="post-hero">
+        <img src="{{site.baseurl}}/img/post/{{ page.quickId }}/{{ page.shot-img }}">  
+    </div>
+    <div class="post-goal">
+    <div class="post-goal_item post-title">
+        <h1>
+        GOAL
+        </h1> 
+    </div>
+    <div class="post-goal_item">
+        <p>
+            {{ page.goal }}
+        </p>
+    </div>
+</div>
+<div class="post-sec">
+    <div class="post-sec_item post-title">
+    
+        <h1>
+        {{ page.intro_name }}
+        </h1>  
+    </div>
+    <div class="post-sec_item">
+        {{ page.intro_content }}
+    </div>
+    
+</div>
+   
+   <div class="post-gallery">
+       {% for item in page.gallery %}
+        <div class="post-gallery_img">
+            <img src="{{site.baseurl}}/img/post/{{ page.quickId }}/{{ item }}">
+        </div>
+        {% endfor %}
+    </div>
+   
+    {{ content }}
+  </div>
+        <div class="post-links">
+          {% for item in page.link %}
+           <a href="{{ item.url }}">
+            <div class="post-links-item">
+                <h1>{{ item.title }}</h1>
+            </div>
+           </a>
+           {% endfor %}
+        </div>
+    
+</article>
