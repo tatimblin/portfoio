@@ -4,46 +4,11 @@
     <title>timblin.co</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Aug 2016 11:02:10 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Aug 2016 11:02:10 -0400</lastBuildDate>
+    <link>https://tatimblin.github.io/portfolio/</link>
+    <atom:link href="https://tatimblin.github.io/portfolio/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 03 Aug 2016 09:23:34 -0400</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 09:23:34 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>Solo Ping Pong</title>
-        <description>&lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;Solo Ping Pong - Week 01&lt;/title&gt;
-		&lt;meta charset=&quot;UTF-8&quot; /&gt;
-		&lt;meta name=&quot;author&quot; content=&quot;Original: Kushagra Agarwal, Modified by: Jervis Thompson &quot; /&gt;
-		&lt;meta name=&quot;description&quot; content=&quot;Ping-Pong Game with HTML5, Canvas, and Sounds&quot; /&gt;
-		&lt;!-- http://cssdeck.com/labs/ping-pong-game-tutorial-with-html5-canvas-and-sounds --&gt;
-		&lt;link rel=&quot;stylesheet&quot; href=&quot;css/basic.css&quot; /&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-        
-		&lt;canvas id=&quot;canvas&quot;&gt;&lt;/canvas&gt;
-        &lt;audio preload=&quot;true&quot; id=&quot;collide&quot;&gt;
-            &lt;source src=&quot;snd/pop.mp3&quot; /&gt;
-            &lt;source src=&quot;snd/pop.wav&quot; /&gt;
-        &lt;/audio&gt;
-		&lt;script src=&quot;js/game.js&quot;&gt;&lt;/script&gt;
-	&lt;/body&gt;
-&lt;/html&gt;
-</description>
-        <pubDate>Sun, 31 Jul 2016 16:35:02 -0400</pubDate>
-        <link>http://yourdomain.com/work/Solo-Ping-Pong</link>
-        <guid isPermaLink="true">http://yourdomain.com/work/Solo-Ping-Pong</guid>
-        
-        <category>Web Dev</category>
-        
-        <category>Web Design</category>
-        
-        
-        <category>work</category>
-        
-      </item>
     
       <item>
         <title>The Wordpress Condition</title>
@@ -64,8 +29,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 31 Jul 2016 16:35:02 -0400</pubDate>
-        <link>http://yourdomain.com/work/The-Wordpress-Condition</link>
-        <guid isPermaLink="true">http://yourdomain.com/work/The-Wordpress-Condition</guid>
+        <link>https://tatimblin.github.io/portfolio/work/The-Wordpress-Condition</link>
+        <guid isPermaLink="true">https://tatimblin.github.io/portfolio/work/The-Wordpress-Condition</guid>
         
         <category>Web Dev</category>
         
@@ -106,8 +71,8 @@
 
 </description>
         <pubDate>Tue, 10 May 2016 16:35:02 -0400</pubDate>
-        <link>http://yourdomain.com/featured/work/Light-The-Way</link>
-        <guid isPermaLink="true">http://yourdomain.com/featured/work/Light-The-Way</guid>
+        <link>https://tatimblin.github.io/portfolio/featured/work/Light-The-Way</link>
+        <guid isPermaLink="true">https://tatimblin.github.io/portfolio/featured/work/Light-The-Way</guid>
         
         <category>Web Dev</category>
         
@@ -156,7 +121,7 @@
     &lt;/div&gt;
     &lt;div class=&quot;post-sec_item&quot;&gt;
 
-        &lt;img src=&quot;/img/post/bitterTypeface/wireframe.jpg&quot; /&gt;
+        &lt;img src=&quot;/portfolio/img/post/bitterTypeface/wireframe.jpg&quot; /&gt;
         &lt;p&gt;
             Initial site visualization (after many other ugly sketches), final product did not change all to much.
         &lt;/p&gt;
@@ -172,7 +137,7 @@
     &lt;/div&gt;
     &lt;div class=&quot;post-sec_item&quot;&gt;
 
-        &lt;img src=&quot;/img/post/bitterTypeface/bitter.jpg&quot; /&gt;
+        &lt;img src=&quot;/portfolio/img/post/bitterTypeface/bitter.jpg&quot; /&gt;
         &lt;p&gt;
             Desktop version is from the .psd mockup and the mobile is a screenshot from the site on iPhone.
         &lt;/p&gt;
@@ -201,8 +166,8 @@
 
 </description>
         <pubDate>Tue, 10 May 2016 16:35:02 -0400</pubDate>
-        <link>http://yourdomain.com/featured/work/Bitter-Typeface</link>
-        <guid isPermaLink="true">http://yourdomain.com/featured/work/Bitter-Typeface</guid>
+        <link>https://tatimblin.github.io/portfolio/featured/work/Bitter-Typeface</link>
+        <guid isPermaLink="true">https://tatimblin.github.io/portfolio/featured/work/Bitter-Typeface</guid>
         
         <category>Web Dev</category>
         
@@ -235,8 +200,8 @@
 
 </description>
         <pubDate>Tue, 11 Jun 1996 16:35:02 -0400</pubDate>
-        <link>http://yourdomain.com/Template</link>
-        <guid isPermaLink="true">http://yourdomain.com/Template</guid>
+        <link>https://tatimblin.github.io/portfolio/Template</link>
+        <guid isPermaLink="true">https://tatimblin.github.io/portfolio/Template</guid>
         
         <category>Web Dev</category>
         
